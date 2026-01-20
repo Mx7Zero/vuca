@@ -146,10 +146,20 @@ const ScienceSection = () => {
             </div>
           </div>
 
-          <div className="mt-8 pt-6 border-t border-gray-700 text-center">
-            <p className="text-gray-400">
+          <div className="mt-8 pt-6 border-t border-gray-700 space-y-4">
+            <p className="text-gray-400 text-center">
               <span className="font-semibold text-white">Key Finding:</span> Metabolic demand increases dramatically while cardiac stress remains minimal—a phenomenon with no precedent in 75 years of exercise physiology
             </p>
+            <div className="grid md:grid-cols-2 gap-6 mt-6">
+              <div className="glass-card p-4 rounded-xl">
+                <div className="text-lg font-bold text-bio-green mb-2">🧠 Cognitive Enhancement</div>
+                <p className="text-sm text-gray-400">Reactive proprioception training activates neural pathways, improving focus, reaction time, and cognitive function through chaos adaptation</p>
+              </div>
+              <div className="glass-card p-4 rounded-xl">
+                <div className="text-lg font-bold text-warm-amber mb-2">🔥 Metabolic Weight Loss</div>
+                <p className="text-sm text-gray-400">73% increase in metabolic output burns jogging-level calories at walking heart rates—safe, sustainable fat loss without cardiac stress</p>
+              </div>
+            </div>
           </div>
         </motion.div>
       </div>

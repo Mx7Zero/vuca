@@ -55,6 +55,17 @@ const MarketPositioning = () => {
       details: 'Build operational readiness through stochastic training that mirrors real-world tactical environments.',
     },
     {
+      icon: Building2,
+      emoji: '🧘',
+      market: 'Stability & Balance',
+      positioning: 'Reactive Proprioception',
+      message: 'Walk again after surgery, prevent falls, extend independence',
+      tam: '$95B',
+      growth: '12% CAGR',
+      color: 'from-purple-500 to-indigo-500',
+      details: 'Aging population, post-surgical PT/rehab, fall prevention ($50-80B annually). Stochastic training rebuilds neural pathways for balance and coordination.',
+    },
+    {
       icon: Cog,
       emoji: '🏭',
       market: 'OEM Partners',
@@ -79,7 +90,7 @@ const MarketPositioning = () => {
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
             <span className="gradient-text">One Platform.</span>
             <br />
-            <span className="text-white">Five Markets.</span>
+            <span className="text-white">Six Markets.</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             Multi-frame positioning with strategic optionality
@@ -145,7 +156,7 @@ const MarketPositioning = () => {
         >
           <div className="text-sm text-gray-400 uppercase tracking-wider mb-2">Combined Total Addressable Market</div>
           <div className="text-5xl md:text-6xl font-bold gradient-text mb-4 font-mono">
-            $519B+
+            $614B+
           </div>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Platform play across multiple high-growth markets with strategic sequencing: OEM licensing first, direct clinical second, consumer and FDA pathways last.
