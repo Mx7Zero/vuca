@@ -70,7 +70,7 @@ const IPPortfolio = () => {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="gradient-text">24 Patents.</span>
+            <span className="gradient-text">30+ Patents.</span>
             <br />
             <span className="text-white">One Platform.</span>
           </h2>
@@ -90,7 +90,7 @@ const IPPortfolio = () => {
           <div className="text-6xl md:text-7xl font-bold gradient-text mb-4 font-mono">
             $180M - $450M
           </div>
-          <div className="text-gray-400">Based on 24-patent tiered architecture</div>
+          <div className="text-gray-400">Based on 30+ patent tiered architecture</div>
         </motion.div>
 
         {/* Tier Cards */}
