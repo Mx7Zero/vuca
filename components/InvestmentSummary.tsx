@@ -51,9 +51,9 @@ const InvestmentSummary = () => {
             </div>
             <div className="text-sm text-gray-400 uppercase tracking-wider mb-2">Portfolio Value</div>
             <div className="text-4xl md:text-5xl font-bold text-purple-500 mb-2 font-mono">
-              $180M - $450M
+              $650M+
             </div>
-            <div className="text-gray-400">24 patents</div>
+            <div className="text-gray-400">30+ patents</div>
           </motion.div>
 
           <motion.div

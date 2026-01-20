@@ -88,7 +88,7 @@ const IPPortfolio = () => {
         >
           <div className="text-sm text-gray-400 uppercase tracking-wider mb-2">Total Portfolio Valuation</div>
           <div className="text-6xl md:text-7xl font-bold gradient-text mb-4 font-mono">
-            $180M - $450M
+            $650M+
           </div>
           <div className="text-gray-400">Based on 30+ patent tiered architecture</div>
         </motion.div>
