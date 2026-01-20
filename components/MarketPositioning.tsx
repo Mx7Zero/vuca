@@ -107,7 +107,7 @@ const MarketPositioning = () => {
 
               <h3 className="text-2xl font-bold text-white mb-2">{market.market}</h3>
               <div className={`text-lg font-semibold bg-gradient-to-r ${market.color} bg-clip-text text-transparent mb-3`}>
-                "{market.positioning}"
+                &ldquo;{market.positioning}&rdquo;
               </div>
               <p className="text-gray-400 text-sm mb-4">{market.message}</p>
 

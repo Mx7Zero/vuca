@@ -25,7 +25,7 @@ const ClosingSection = () => {
           className="glass-card rounded-2xl p-8 md:p-12 mb-16 border-l-4 border-electric-teal"
         >
           <blockquote className="text-2xl md:text-4xl text-gray-300 italic leading-relaxed text-center mb-6">
-            "In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists."
+            &ldquo;In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists.&rdquo;
           </blockquote>
           <div className="text-right text-gray-500 text-xl">— Eric Hoffer</div>
         </motion.div>

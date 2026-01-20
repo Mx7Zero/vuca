@@ -60,10 +60,10 @@ const ScienceSection = () => {
           className="glass-card rounded-2xl p-8 md:p-12 mb-16 border-l-4 border-electric-teal"
         >
           <blockquote className="text-2xl md:text-3xl text-gray-300 italic leading-relaxed">
-            "Stochastic perturbation creates metabolic demand through{' '}
+            &ldquo;Stochastic perturbation creates metabolic demand through{' '}
             <span className="gradient-text font-semibold not-italic">neuromuscular recruitment</span>
             {' '}rather than{' '}
-            <span className="text-gray-500 font-semibold not-italic">cardiovascular escalation</span>."
+            <span className="text-gray-500 font-semibold not-italic">cardiovascular escalation</span>.&rdquo;
           </blockquote>
         </motion.div>
 
