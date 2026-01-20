@@ -6,7 +6,7 @@ import { DollarSign, Shield, TrendingUp } from 'lucide-react'
 
 const InvestmentSummary = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.3 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
 
   return (
     <section id="investment" className="relative py-20 md:py-32 bg-charcoal">

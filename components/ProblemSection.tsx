@@ -6,7 +6,7 @@ import { DollarSign, Users, Heart } from 'lucide-react'
 
 const ProblemSection = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.3 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
 
   const problems = [
     {

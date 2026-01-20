@@ -6,7 +6,7 @@ import { CheckCircle2, Circle, AlertCircle } from 'lucide-react'
 
 const Timeline = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.2 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
 
   const phases = [
     {

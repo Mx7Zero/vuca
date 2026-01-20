@@ -6,7 +6,7 @@ import { Shield, Brain, Cpu, Layers, ChevronDown, ChevronUp } from 'lucide-react
 
 const IPPortfolio = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.2 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
   const [expandedTier, setExpandedTier] = useState<number | null>(null)
 
   const tiers = [

@@ -6,7 +6,7 @@ import { GitBranch, TrendingUp, AlertTriangle } from 'lucide-react'
 
 const DecisionArchitecture = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.3 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
 
   const decisions = [
     {

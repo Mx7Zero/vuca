@@ -6,7 +6,7 @@ import { Heart, Trophy, Building2, Shield, Cog } from 'lucide-react'
 
 const MarketPositioning = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.2 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
   const [selectedMarket, setSelectedMarket] = useState<number | null>(null)
 
   const markets = [

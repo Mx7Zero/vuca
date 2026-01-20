@@ -6,7 +6,7 @@ import { Zap, Brain, Target, Shuffle } from 'lucide-react'
 
 const VUCAFramework = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.2 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
   const [selectedQuadrant, setSelectedQuadrant] = useState<number | null>(null)
 
   const quadrants = [

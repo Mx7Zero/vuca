@@ -6,7 +6,7 @@ import { FileText, Calendar, Database } from 'lucide-react'
 
 const ClosingSection = () => {
   const ref = useRef(null)
-  const isInView = useInView(ref, { once: true, amount: 0.3 })
+  const isInView = useInView(ref, { once: true, amount: 0.1 })
 
   const actions = [
     { icon: FileText, label: 'View Full Strategy Document', color: 'from-electric-teal to-blue-500' },
