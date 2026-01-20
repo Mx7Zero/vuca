@@ -100,13 +100,13 @@ const ScienceSection = () => {
           
           <div className="space-y-6">
             {/* Walking Control */}
-            <div className="flex items-center">
-              <div className="w-48 text-gray-400 font-semibold">Walking (Control)</div>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-0">
+              <div className="sm:w-48 text-gray-400 font-semibold text-sm sm:text-base">Walking (Control)</div>
               <div className="flex-1">
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-2 sm:space-x-4">
                   <div className="flex-1 bg-gray-700 rounded-full h-8 relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-gray-600 to-gray-500 w-full h-full"></div>
-                    <div className="absolute inset-0 flex items-center justify-center text-sm font-bold">
+                    <div className="absolute inset-0 flex items-center justify-center text-xs sm:text-sm font-bold">
                       Baseline
                     </div>
                   </div>
@@ -115,29 +115,29 @@ const ScienceSection = () => {
             </div>
 
             {/* Walking + Perturbation */}
-            <div className="flex items-center">
-              <div className="w-48 text-electric-teal font-semibold">+ Perturbation</div>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-0">
+              <div className="sm:w-48 text-electric-teal font-semibold text-sm sm:text-base">+ Perturbation</div>
               <div className="flex-1">
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-2 sm:space-x-4">
                   <div className="flex-1 bg-gray-700 rounded-full h-10 relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-electric-teal to-purple-500 w-full h-full animate-pulse-slow"></div>
-                    <div className="absolute inset-0 flex items-center justify-center text-sm font-bold">
+                    <div className="absolute inset-0 flex items-center justify-center text-xs sm:text-sm font-bold">
                       VO₂ +26.9% · HR +8.5%
                     </div>
                   </div>
-                  <div className="text-3xl font-bold gradient-text font-mono">3:1</div>
+                  <div className="text-2xl sm:text-3xl font-bold gradient-text font-mono">3:1</div>
                 </div>
               </div>
             </div>
 
             {/* Walking + PBFR */}
-            <div className="flex items-center">
-              <div className="w-48 text-warm-amber font-semibold">+ PBFR</div>
+            <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-0">
+              <div className="sm:w-48 text-warm-amber font-semibold text-sm sm:text-base">+ PBFR</div>
               <div className="flex-1">
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center space-x-2 sm:space-x-4">
                   <div className="flex-1 bg-gray-700 rounded-full h-12 relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-warm-amber to-orange-500 w-full h-full"></div>
-                    <div className="absolute inset-0 flex items-center justify-center text-sm font-bold">
+                    <div className="absolute inset-0 flex items-center justify-center text-xs sm:text-sm font-bold">
                       VO₂ +73% (Additional Study)
                     </div>
                   </div>
