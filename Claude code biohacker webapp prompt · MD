@@ -1,0 +1,342 @@
+# Claude Code Prompt: Biohacker Webapp Presentation for Management
+
+## Context
+
+You are building an interactive webapp presentation for Prime Reaction's management team. This presents the VUCA Prime Strategic Framework for our VO2-Reaction System—a breakthrough fitness technology platform that achieves "metabolic-cardiac dissociation" (burning jogging-level calories at walking-level heart rates).
+
+**Target Audience:** Executive leadership, board members, potential investors
+**Tone:** Premium biohacker aesthetic—think Oura Ring meets institutional investor deck
+**Purpose:** Strategic alignment tool that makes complex physiological science and IP strategy visually compelling
+
+---
+
+## Design Requirements
+
+### Visual Identity
+
+**Color Palette:**
+- Primary: Deep navy (#0A1628) or charcoal (#1A1A2E)
+- Accent: Electric teal (#00D9FF) or biometric green (#00FF88)
+- Secondary: Warm amber (#FFB800) for highlights/warnings
+- Text: Clean white (#FFFFFF) on dark backgrounds
+- Data visualization: Gradient from teal to purple
+
+**Typography:**
+- Headlines: Modern geometric sans-serif (Inter, Space Grotesk, or similar)
+- Body: Clean, highly readable (Inter, SF Pro, or similar)
+- Data/metrics: Monospace for numbers (JetBrains Mono, SF Mono)
+
+**UI Elements:**
+- Glassmorphism cards with subtle backdrop blur
+- Smooth micro-animations on scroll and hover
+- Pulsing/breathing effects on key metrics
+- Dark mode by default (optional light mode toggle)
+- Responsive design (works on large screen presentations and tablets)
+
+---
+
+## Content Structure
+
+### Section 1: Opening Impact (Hero)
+
+**Headline:** "The 3:1 Leverage Ratio"
+**Subhead:** "What if you could burn jogging calories at walking heart rates?"
+
+**Key Visual:** Animated comparison showing:
+- Left side: Traditional exercise (VO₂ +27% = HR +27%)
+- Right side: Prime Reaction (VO₂ +27% = HR +9%)
+
+**Data Callout (animated counter):**
+```
+VO₂ Increase: +26.9%
+HR Increase: +8.5%
+Leverage Ratio: 3:1
+p-value: <0.001
+Sample Size: N=19
+```
+
+---
+
+### Section 2: The Problem We Solve
+
+**Section Title:** "75 Years of Assumptions. One Breakthrough."
+
+**Three problem cards (hover to expand):**
+
+1. **27 Million Americans** on beta-blockers cannot achieve training heart rates
+2. **$50-80 Billion** annual cost of fall prevention with no dominant solution  
+3. **$5 Billion** cardiac rehab market using 50-year-old modalities
+
+**Visual:** Timeline showing exercise physiology stagnation (1950s → 2025) with Prime Reaction breaking the pattern
+
+---
+
+### Section 3: VUCA Framework Overview
+
+**Interactive diagram:** Four quadrants that expand on click/hover
+
+| Challenge | Response | Outcome |
+|-----------|----------|---------|
+| **Volatility** → Vision | Category definition |
+| **Uncertainty** → Understanding | Bounded unknowns |
+| **Complexity** → Clarity | Three-pillar strategy |
+| **Ambiguity** → Agility | Multi-frame positioning |
+
+**Animation:** VUCA transforms into PRIME with connecting arrows
+
+---
+
+### Section 4: The Science (Simplified)
+
+**Section Title:** "Metabolic Arbitrage"
+
+**Interactive Infographic:** Human body silhouette showing:
+- Cardiovascular system (heart rate) → minimal increase
+- Neuromuscular system (stabilizers) → high activation
+- Metabolic output (calories/oxygen) → significant increase
+
+**Key Insight Card:**
+> "Stochastic perturbation creates metabolic demand through neuromuscular recruitment rather than cardiovascular escalation."
+
+**Pilot Data Visualization:**
+- Walking (Control): VO₂ baseline, HR baseline
+- Walking + Perturbation: VO₂ +26.9%, HR +8.5%
+- Walking + PBFR: VO₂ +73% (additional study)
+
+---
+
+### Section 5: IP Portfolio Visualization
+
+**Section Title:** "24 Patents. One Platform."
+
+**Interactive Tier Diagram (expandable accordion or radial chart):**
+
+```
+TIER 1: FOUNDATIONAL ($60-100M value)
+├── PR-PROV-001: Cardiac-Sparing Metabolic Conditioning [$25-60M]
+├── PR-PROV-002: Glycolytic Shunt Glucose Disposal
+└── PR-PROV-004: Ventilatory Efficiency Protocol
+
+TIER 2: DIAGNOSTIC ($40-80M value)
+├── PR-PROV-007: Hemispheric Metabolic Index
+├── PR-PROV-008: Neuro-Metabolic Efficiency Score
+├── PR-PROV-009: Neural Recovery Velocity Index
+└── PR-PROV-010: Perturbation Tolerance Threshold
+
+TIER 3: ALGORITHMIC ($30-60M value)
+├── PR-PROV-013: Adaptive Chaos AI Algorithm
+├── PR-PROV-015: Sleep-Modulated Safety Clamping
+└── PR-PROV-016: Wearable Closed-Loop Control
+
+TIER 4: APPLICATION ($20-40M value)
+├── PR-PROV-017: Centenarian Protocol System
+└── PR-PROV-018: Virtual Hypoxia Simulation
+```
+
+**Total Portfolio Valuation Range:** $180M - $450M (animated counter)
+
+---
+
+### Section 6: Market Positioning Matrix
+
+**Section Title:** "One Platform. Five Markets."
+
+**Interactive table/cards:** Click each market to see details
+
+| Market | Positioning | Key Message | TAM |
+|--------|-------------|-------------|-----|
+| 🏥 Longevity Clinics | "VO₂ Max Amplifier" | Elite metabolic stimulus in any body | $314B by 2030 |
+| ❤️ Cardiac Rehab | "Safe Metabolic Conditioning" | Jogging calories at walking heart rates | $5B |
+| 🏆 Elite Sports | "The Chaos Advantage" | Train the nervous system | $12B |
+| 🎖️ Military/Tactical | "Resilience Under Chaos" | Operate in unpredictable conditions | $8B |
+| 🏭 OEM Partners | "The Metabolic Platform" | License the only validated mechanism | $180B fitness equipment |
+
+---
+
+### Section 7: Strategic Roadmap Timeline
+
+**Section Title:** "The Forward Path"
+
+**Horizontal Gantt-style timeline (interactive):**
+
+```
+PHASE 1 (0-90 Days): ESTABLISH FOUNDATION
+├── File foundational IP claims [Day 30]
+├── Launch validation studies [Day 45]
+└── Decision Gate: 3:1 ratio confirmed ±20%
+
+PHASE 2 (90-180 Days): VALIDATE & EXTEND
+├── Complete N=30 cardiac study [Day 150]
+├── First OEM LOI [Day 180]
+└── Decision Gate: Commercial interest confirmed
+
+PHASE 3 (180-365 Days): COMMERCIALIZE
+├── OEM licensing agreement ($2-5M) [Day 270]
+├── 10-20 clinical facility sales [Day 300]
+└── Decision Gate: $1M+ contracted revenue
+
+PHASE 4 (12-24 Months): PLATFORM DOMINANCE
+├── 5+ OEM deals
+├── FDA clearance decision
+└── Series A preparation
+└── Target: $10M ARR
+```
+
+**Visual treatment:** Progress bar with current position indicator, milestone diamonds, decision gate checkpoints
+
+---
+
+### Section 8: If/Then Decision Architecture
+
+**Section Title:** "Built-In Resilience"
+
+**Branching flowchart visualization:**
+
+```
+Validation Result?
+├── 3:1 ratio holds (±20%) → Proceed to OEM commercialization
+└── >20% variance → Pivot to diagnostic-only positioning
+
+OEM Interest by Q3?
+├── 2+ LOIs signed → Accelerate licensing deals
+└── Zero interest → Fast-track direct clinical sales
+
+Beta-blocker subgroup response?
+├── Enhanced (>4:1 ratio) → Prioritize cardiac rehab
+└── Standard (3:1 ratio) → Maintain diversified approach
+```
+
+---
+
+### Section 9: Investment Summary
+
+**Section Title:** "The Opportunity"
+
+**Three metric cards with animations:**
+
+1. **Funding Ask:** $695K - $735K over 24 months
+2. **Portfolio Value:** $180M - $450M (24 patents)
+3. **Path to Revenue:** $10M ARR via 2 OEM deals in 12 months
+
+**ROI Highlight Box:**
+> "Foundational patent PR-PROV-001 alone is valued at $25-60M—representing 35-80x return on total IP investment."
+
+---
+
+### Section 10: Closing / Call to Action
+
+**Quote Card (animated fade-in):**
+> *"In times of change, learners inherit the earth, while the learned find themselves beautifully equipped to deal with a world that no longer exists."*  
+> — Eric Hoffer
+
+**Final Statement:**
+"We are not building a product. We are establishing a **physiological property** that becomes the foundation of an entirely new category of human performance optimization."
+
+**CTA Buttons:**
+- "View Full Strategy Document"
+- "Schedule Deep Dive"
+- "Access Data Room"
+
+---
+
+## Technical Requirements
+
+### Framework
+- React with TypeScript (preferred) or Next.js
+- Tailwind CSS for styling
+- Framer Motion for animations
+- Recharts or D3.js for data visualizations
+- Optional: Three.js for any 3D elements
+
+### Features
+1. **Smooth scroll navigation** with section indicators
+2. **Keyboard navigation** (arrow keys for sections)
+3. **Progress indicator** showing current position
+4. **Export capability** (PDF summary generation optional)
+5. **Presentation mode** (fullscreen, auto-advance timer)
+6. **Dark/light mode toggle**
+
+### Responsive Breakpoints
+- Desktop presentation (1920x1080 optimized)
+- Tablet landscape (1024x768)
+- Mobile fallback (readable but presentation mode disabled)
+
+### Performance
+- Lazy load sections below the fold
+- Preload animations for smooth transitions
+- Target: <3s initial load, 60fps animations
+
+---
+
+## Interaction Patterns
+
+1. **Scroll-triggered animations:** Elements fade/slide in as user scrolls
+2. **Hover states:** Cards lift with subtle shadow, reveal additional info
+3. **Click to expand:** Tables and IP tiers expand for detail
+4. **Animated counters:** Numbers count up when scrolled into view
+5. **Parallax effects:** Subtle depth on hero sections
+6. **Transition between sections:** Smooth crossfade or slide
+
+---
+
+## Sample Data for Development
+
+```javascript
+const leverageRatioData = {
+  vo2Increase: 26.9,
+  hrIncrease: 8.5,
+  leverageRatio: 3.16,
+  pValue: 0.001,
+  sampleSize: 19
+};
+
+const patentPortfolio = {
+  tier1: { count: 5, valueRange: [60, 100], label: "Foundational" },
+  tier2: { count: 8, valueRange: [40, 80], label: "Diagnostic" },
+  tier3: { count: 6, valueRange: [30, 60], label: "Algorithmic" },
+  tier4: { count: 5, valueRange: [20, 40], label: "Application" },
+  totalPatents: 24,
+  totalValueRange: [180, 450]
+};
+
+const marketSegments = [
+  { name: "Longevity Economy", tam: 314, unit: "B", growth: "25.2% CAGR" },
+  { name: "Cardiac Rehab", tam: 5, unit: "B", growth: "8% CAGR" },
+  { name: "Elite Sports", tam: 12, unit: "B", growth: "10% CAGR" },
+  { name: "Military Fitness", tam: 8, unit: "B", growth: "6% CAGR" }
+];
+
+const timeline = [
+  { phase: 1, name: "Foundation", days: "0-90", milestones: ["IP Filing", "Validation Launch"] },
+  { phase: 2, name: "Validate", days: "90-180", milestones: ["Cardiac Study", "First LOI"] },
+  { phase: 3, name: "Commercialize", days: "180-365", milestones: ["OEM Deal", "Clinical Sales"] },
+  { phase: 4, name: "Dominance", days: "12-24mo", milestones: ["$10M ARR", "Series A"] }
+];
+```
+
+---
+
+## Deliverable
+
+A single-page webapp (or multi-route app) that:
+1. Tells the Prime Reaction strategic story visually
+2. Impresses biohacker/longevity-focused executives
+3. Can be used in board meetings and investor presentations
+4. Exports key sections as shareable assets (optional)
+
+**Primary success metric:** A management viewer should understand the 3:1 leverage ratio, IP value, and strategic roadmap within 5 minutes of interactive browsing.
+
+---
+
+## Reference Aesthetic
+
+Think: 
+- Oura Ring's dark, premium dashboard
+- Eight Sleep's health data visualizations  
+- Levels (CGM) investor materials
+- Apple Fitness+ interface elements
+- Stripe's Atlas documentation design
+
+---
+
+**End of Prompt**
