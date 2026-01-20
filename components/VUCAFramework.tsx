@@ -132,11 +132,11 @@ const VUCAFramework = () => {
             </div>
             <div className="text-4xl text-electric-teal">→</div>
             <div className="text-4xl font-bold gradient-text">
-              P · R · I · M · E
+              V · O · 2
             </div>
           </div>
           <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
-            VO2 ProMax Framework: Strategic agility in discovery-stage science with platform-stage commercial readiness
+            VO2 ProMax: Strategic agility in discovery-stage science with platform-stage commercial readiness
           </p>
         </motion.div>
       </div>
