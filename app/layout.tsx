@@ -5,11 +5,21 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'VUCA Prime - Strategic Framework',
-  description: 'Prime Reaction: The 3:1 Leverage Ratio - Metabolic-Cardiac Dissociation Platform',
-  keywords: ['VUCA', 'Prime Reaction', 'VO2 Max', 'Biohacker', 'Longevity', 'Fitness Technology'],
+  title: 'VO2 ProMax - VUCA Prime Strategic Framework',
+  description: 'VO2 ProMax: The 3:1 Leverage Ratio - Burn jogging calories at walking heart rates. Revolutionary metabolic-cardiac dissociation platform.',
+  keywords: ['VUCA', 'VO2 ProMax', 'VO2 Max', 'Biohacker', 'Longevity', 'Fitness Technology', 'Metabolic Conditioning'],
   icons: {
     icon: '/favicon.svg',
+  },
+  openGraph: {
+    title: 'VO2 ProMax - The 3:1 Leverage Ratio',
+    description: 'Burn jogging calories at walking heart rates. Revolutionary metabolic-cardiac dissociation platform.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'VO2 ProMax - The 3:1 Leverage Ratio',
+    description: 'Burn jogging calories at walking heart rates. Revolutionary metabolic-cardiac dissociation platform.',
   },
 }
 
