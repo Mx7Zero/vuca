@@ -77,8 +77,8 @@ const ProblemSection = () => {
           className="mt-20 relative"
         >
           <div className="glass-card rounded-2xl p-8">
-            <div className="flex items-center justify-between relative">
-              <div className="absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-gray-600 via-gray-500 to-electric-teal transform -translate-y-1/2"></div>
+            <div className="flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0 relative">
+              <div className="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-gray-600 via-gray-500 to-electric-teal transform -translate-y-1/2"></div>
               
               <div className="relative z-10 text-center">
                 <div className="w-16 h-16 bg-gray-600 rounded-full flex items-center justify-center mb-3 mx-auto">
@@ -87,7 +87,7 @@ const ProblemSection = () => {
                 <p className="text-sm text-gray-400">Exercise Physiology<br />Established</p>
               </div>
 
-              <div className="relative z-10 text-center hidden md:block">
+              <div className="relative z-10 text-center">
                 <div className="w-16 h-16 bg-gray-600 rounded-full flex items-center justify-center mb-3 mx-auto">
                   <span className="text-sm font-bold">2000</span>
                 </div>
