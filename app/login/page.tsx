@@ -56,9 +56,10 @@ export default function LoginPage() {
               id="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
-              className="w-full px-4 py-3 bg-navy-medium border border-gray-700 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-electric-teal focus:border-transparent transition-all"
+              className="w-full px-4 py-3 bg-gray-900/50 border border-gray-600 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-electric-teal focus:border-transparent transition-all"
               placeholder="Enter password"
               autoFocus
+              style={{ WebkitTextFillColor: 'white' }}
             />
             {error && (
               <p className="mt-2 text-sm text-red-400">{error}</p>
