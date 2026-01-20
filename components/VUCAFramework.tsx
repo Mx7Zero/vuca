@@ -136,7 +136,7 @@ const VUCAFramework = () => {
             </div>
           </div>
           <p className="mt-6 text-gray-400 max-w-2xl mx-auto">
-            Prime Reaction Framework: Strategic agility in discovery-stage science with platform-stage commercial readiness
+            VO2 ProMax Framework: Strategic agility in discovery-stage science with platform-stage commercial readiness
           </p>
         </motion.div>
       </div>

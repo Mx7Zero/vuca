@@ -49,9 +49,9 @@ const Navigation = () => {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-electric-teal to-purple-500 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-xl">PR</span>
+                <span className="text-white font-bold text-xl">V2</span>
               </div>
-              <span className="text-xl font-bold gradient-text hidden sm:inline">Prime Reaction</span>
+              <span className="text-xl font-bold gradient-text hidden sm:inline">VO2 ProMax</span>
             </div>
 
             {/* Desktop Navigation */}

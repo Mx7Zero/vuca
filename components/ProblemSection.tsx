@@ -98,7 +98,7 @@ const ProblemSection = () => {
                 <div className="w-20 h-20 bg-gradient-to-br from-electric-teal to-purple-500 rounded-full flex items-center justify-center mb-3 mx-auto animate-pulse-slow">
                   <span className="text-lg font-bold">2026</span>
                 </div>
-                <p className="text-sm font-bold gradient-text">Prime Reaction<br />Breakthrough</p>
+                <p className="text-sm font-bold gradient-text">VO2 ProMax<br />Breakthrough</p>
               </div>
             </div>
           </div>

@@ -80,9 +80,9 @@ const ClosingSection = () => {
         >
           <div className="flex items-center justify-center space-x-2">
             <div className="w-10 h-10 bg-gradient-to-br from-electric-teal to-purple-500 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">PR</span>
+              <span className="text-white font-bold text-lg">V2</span>
             </div>
-            <span className="text-2xl font-bold gradient-text">Prime Reaction</span>
+            <span className="text-2xl font-bold gradient-text">VO2 ProMax</span>
           </div>
           <p className="text-gray-500">
             VUCA Prime Strategic Framework v1.1 | January 2026

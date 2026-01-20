@@ -109,7 +109,7 @@ const HeroSection = () => {
               </div>
             </motion.div>
 
-            {/* Prime Reaction */}
+            {/* VO2 ProMax */}
             <motion.div
               className="glass-card rounded-2xl p-8 border-2 border-electric-teal relative overflow-hidden"
               initial={{ opacity: 0, x: 50 }}
@@ -119,7 +119,7 @@ const HeroSection = () => {
               <div className="absolute top-0 right-0 bg-electric-teal text-dark-navy px-4 py-1 text-sm font-bold">
                 BREAKTHROUGH
               </div>
-              <h3 className="text-2xl font-semibold mb-6 gradient-text">Prime Reaction</h3>
+              <h3 className="text-2xl font-semibold mb-6 gradient-text">VO2 ProMax</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-3">
