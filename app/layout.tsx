@@ -5,11 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'VO2 ProMax - VUCA Prime Strategic Framework',
+  title: 'VO2 ProMax - VUCA Strategic Framework',
   description: 'VO2 ProMax: The 3:1 Leverage Ratio - Burn jogging calories at walking heart rates. Revolutionary metabolic-cardiac dissociation platform.',
   keywords: ['VUCA', 'VO2 ProMax', 'VO2 Max', 'Biohacker', 'Longevity', 'Fitness Technology', 'Metabolic Conditioning'],
   icons: {
-    icon: '/favicon.svg',
+    icon: '/favicon.svg?v=2',
   },
   openGraph: {
     title: 'VO2 ProMax - The 3:1 Leverage Ratio',

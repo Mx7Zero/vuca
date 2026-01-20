@@ -85,7 +85,7 @@ const ClosingSection = () => {
             <span className="text-2xl font-bold gradient-text">VO2 ProMax</span>
           </div>
           <p className="text-gray-500">
-            VUCA Prime Strategic Framework v1.1 | January 2026
+            VUCA VO2 ProMax Strategic Framework v1.1 | January 2026
             <br />
             For internal strategic planning only
           </p>
